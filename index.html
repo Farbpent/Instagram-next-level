@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+
+</head>
+
+<body>
+
+    <nav class="bg-dark pt-3 pb-3 sticky-top " data-spy="affix">
+
+        <div class="row d-flex justify-content-between  ">
+            <!-- Colocacion de imagenes -->
+            <div class="pl-5 ">
+                <img src="icono.png" alt="Icono" class=class="col–sm–x" width="55vw">
+                <img src="letras.png" alt="Letras instagram" width="105vw">
+            </div>
+
+            <div class="d-flex align-items-center pr-5">
+
+                <!-- Boton modal -->
+                <button type="button" class="btn btn-primary bg-success" data-toggle="modal"
+                    data-target="#exampleModalCenter">
+                    Create new post
+                </button>
+
+                <!-- Configuracion del interior -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h5 class="modal-title" id="exampleModalLongTitle">Create new post</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <textarea id="form7" class="md-textarea form-control" rows="3"></textarea>
+                                    <label for="form7">Insert text</label>
+                                </div>
+                                <button class="fas fa-camera pl-.5"></button>
+                                <button class="fas fa-sort-amount-down-alt"></button>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Dropdown-->
+                <div class="dropdown col pl-0 pr-0 " alt="Boton modal">
+                    <button class="btn  btn-primary-outline dropdown-toggle " type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log out</a>
+                    </div>
+                </div>
+
+            </div>
+
+    </nav>
+
+    <div class="container-fluid p-0">
+
+
+        <div class="btn-group btn-group-toggle  bg-secondary d-flex justify-content-center" data-toggle="buttons">
+            <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                        aria-controls="pills-home" aria-selected="true"><i class="fas fa-border-all"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                        aria-controls="pills-contact" aria-selected="false"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam lobortis erat vitae consectetur.
+                Vestibulum dapibus sit amet orci sit amet sollicitudin. Vivamus tempor tempor mauris, in varius augue
+                blandit ut. Cras sem tellus, sodales ut neque eu, varius sodales magna. Suspendisse et mauris sodales,
+                dictum odio vitae, porttitor est. Mauris ac lacinia ante. Sed bibendum tellus sit amet vehicula
+                fringilla. Vivamus ac pellentesque diam. Maecenas sit amet ex molestie dui semper mollis eleifend nec
+                ante. Fusce sit amet porttitor turpis, a consequat nisl. Pellentesque habitant morbi tristique senectus
+                et netus et malesuada fames ac turpis egestas. Nullam ullamcorper egestas fermentum.
+
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="card " style="width: 18rem;">
+                    <div d-flex mr-auto p-2>
+                        <p>
+                            Mando
+                        </p>
+                        <span>
+                            1/12
+                        </span>
+
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1622723316780-ef81bc76f914?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="mando">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card " style="width: 18rem;">
+                    <div d-flex mr-auto p-2>
+                        <p>
+                            Mando
+                        </p>
+                        <span>
+                            1/12
+                        </span>
+
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1622723316780-ef81bc76f914?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="mando">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <div> el pepe</div>
+            <img src="https://images.unsplash.com/photo-1622723316780-ef81bc76f914?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top" alt="mando">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
